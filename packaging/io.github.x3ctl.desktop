@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Attack Shark X3
+Comment=Configure DPI, polling rate, buttons and macros of the Attack Shark X3 mouse
+Exec=@HERE@/x3ctl.sh
+Icon=input-mouse
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=mouse;dpi;attack shark;x3;
+StartupWMClass=io.github.x3ctl

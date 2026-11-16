@@ -1,0 +1,4 @@
+# Attack Shark X3 2.4 GHz receiver: let the logged-in user configure the mouse
+# without root. uaccess grants access to whoever owns the active seat.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1d57", ATTRS{idProduct}=="fa60", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1d57", ATTRS{idProduct}=="fa61", TAG+="uaccess"
